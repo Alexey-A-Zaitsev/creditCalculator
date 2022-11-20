@@ -1,4 +1,4 @@
-public class creditPaymentService {
+public class СreditPaymentService {
 
     double i = 9.99 / 12 / 100; // Месячная процентная ставка
 

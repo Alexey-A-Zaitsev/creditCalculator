@@ -4,7 +4,7 @@ public class Main {
 
         double s = 1_000_000; // сумма займа
 
-        creditPaymentService service = new creditPaymentService();
+        СreditPaymentService service = new СreditPaymentService();
 
         System.out.println();
         System.out.println("Ежемесячный платеж по кредиту на срок 1 год составит:");
