@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-
         double s = 1_000_000; // сумма займа
-
         СreditPaymentService service = new СreditPaymentService();
 
         System.out.println();
@@ -19,9 +17,5 @@ public class Main {
         System.out.println();
         System.out.println("Ежемесячный платеж по кредиту на срок 3 года составит:");
         System.out.printf("%.0f", service.calculate(36) * s);
-
-
-
-
     }
 }
