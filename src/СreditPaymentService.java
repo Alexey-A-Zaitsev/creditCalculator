@@ -1,9 +1,10 @@
 public class СreditPaymentService {
-    double i = 9.99 / 12 / 100; // Месячная процентная ставка
+    double monthlyInterestRate = 9.99 / 12 / 100; // Месячная процентная ставка
 
-    public double calculate(double n) {
+    public double calculate(double numberMonths) {
         double result;
-        result = i * (Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1); // Расчет коэффициента аннуитета
+        result = monthlyInterestRate * (Math.pow(1 + monthlyInterestRate, numberMonths))
+                / (Math.pow(1 + monthlyInterestRate, numberMonths) - 1); // Расчет коэффициента аннуитета
         return result;
     }
 }
